@@ -1,7 +1,13 @@
+/*Main attributes*/
 body{
   background-color: #f6f7f9;
   font-family: 'Helvetica', 'Arial', sans-serif;
   color: #999999;
+  padding-bottom: 3%;
+}
+.content{
+  width: 93%;
+  margin-left: 21%;
 }
 a{
   text-decoration: none;
@@ -9,33 +15,42 @@ a{
 a:visted{
   color: inherit;
 }
+hr{
+  margin: 5px;
+  width: 31%;
+  display: inline-block;
+}
+
+/*Left image*/
 .camera{
-  float:left;
+  float: left;
   margin-top: 8%;
-  margin-left: 25%;
   margin-right: 2%;
 }
+
+/*Login/Signup right div*/
+  /*First box*/
 .signinwrapper{
-  margin-top: 5%;
+  margin: 3.5% 0%;
   float: left;
   width: 365px;
 }
-
-.instasignin{
+.instasignup{
   font-size: 17px;
   font-weight: 550;
-  line-height: 20px;
+  font-style: normal;
+  line-height: 18px;
   text-align: center;
-  padding: 3% 1%;
+  padding: 6% 1%;
   width: 100%;
   background-color: #fff;
   border:  .5px solid #d5d5d5;
 }
-.logo{
+.instasignup .logo{
   display: block;
   margin: 0 auto;
 }
-.instasignin h2{
+.instasignup h2{
   display: block;
   margin: 0 auto;
   background-color: #3796f0;
@@ -43,13 +58,10 @@ a:visted{
   font-size: 14px;
   font-weight: 600;
   line-height: 26px;
-  width: 68%;
+  width: 75%;
   margin-top: 5%;
   margin-bottom: 3%;
-  border-radius: 5px;
-}
-.instasignin .fb{
-  margin-top: 3%;
+  border-radius: 3px;
 }
 .signupform input{
   background-color: #fafafa;
@@ -58,7 +70,7 @@ a:visted{
   padding: 2%;
   font-size: 13px;
   margin-top: 5%;
-  width: 60%;
+  width: 72%;
   weight: 100;
   line-height: 18px;
 }
@@ -67,13 +79,14 @@ a:visted{
   border: 0;
   width: 100%;
 }
+  /*Second box*/
 .login{
   font-size: 14px;
   font-weight: 400;
   color: black;
   line-height: 20px;
   text-align: center;
-  padding: 3% 1%;
+  padding: 5% 1%;
   width: 100%;
   margin-top: 2%;
   background-color: #fff;
@@ -83,6 +96,7 @@ a:visted{
   text-decoration: none;
   color: #6197f1;
 }
+  /*app download options*/
 .app{
   font-size: 14px;
   font-weight: 400;
@@ -92,14 +106,17 @@ a:visted{
   padding: 3% 1%;
   width: 100%;
   margin-top: 2%;
-  line-height: 25px;
+  line-height: 45px;
 }
+
+/*Footer*/
 footer{
   color: #083569;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600;
   word-spacing: 20px;
+  line-height: 30px;
   text-align: center;
 }
 footer a{
@@ -116,18 +133,35 @@ footer sub{
 .links{
   float: none;
   clear: both;
+  margin: 0% 0%;
 }
-hr{
-  margin: 5px;
-  width: 20%;
-  display: inline-block;
-}
+
+/*Resizing*/
 @media only screen and (max-width: 800px){
   .camera{
       display: none;
   }
-  .instasignin{
+  .instasignup{
     background-color: #f6f7f9;
     border: 0;
+  }
+  .login{
+    background-color: #f6f7f9;
+    border: 0;
+  }
+  .signupform{
+    background-color: #f6f7f9;
+    border: 0;
+  }
+  .signupform button{
+    background-color: #f6f7f9;
+  }
+  .signinwrapper{
+    float: none;
+    margin: 0 auto;
+  }
+  .content{
+    width: 100%;
+    margin-left: 0;
   }
 }
