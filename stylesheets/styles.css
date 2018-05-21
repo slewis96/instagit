@@ -9,17 +9,25 @@ body{
   margin-left: 20%;
   margin-right: 10%;
 }
+.signinwrapper{
+  margin-top: 5%;
+  float: left;
+  width: 40%;
+}
+
 .instasignin{
   font-size: 17px;
   font-weight: 550;
   line-height: 20px;
   text-align: center;
   padding: 3% 1%;
-  width: 28%;
-  margin-top: 3%;
+  width: 60%;
   background-color: #fff;
-  float: left;
   border:  .5px solid #d5d5d5;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
 }
 .instasignin h2{
   display: block;
@@ -37,18 +45,40 @@ body{
 .instasignin .fb{
   margin-top: 3%;
 }
-.logo{
-  display: block;
-  margin: 0 auto;
-}
 .signupform input{
   background-color: #fafafa;
   border: .5px solid #e6e2e2;
   color: #999999;
-  padding: 1%;
+  padding: 2%;
   font-size: 13px;
   margin-top: 5%;
   width: 60%;
   weight: 100;
   line-height: 18px;
+}
+.login{
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  line-height: 20px;
+  text-align: center;
+  padding: 3% 1%;
+  width: 60%;
+  margin-top: 2%;
+  background-color: #fff;
+  border:  .5px solid #d5d5d5;
+}
+.login a{
+  text-decoration: none;
+  color: #6197f1;
+}
+.app{
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  line-height: 20px;
+  text-align: center;
+  padding: 3% 1%;
+  width: 60%;
+  margin-top: 2%;
 }
