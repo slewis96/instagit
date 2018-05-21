@@ -126,6 +126,7 @@ footer a:visited{
   color: #083569;
 }
 footer sub{
+  display: inline;
   font-size: inherit;
   color: #999999;
   word-spacing: normal;
@@ -138,14 +139,18 @@ footer sub{
 
 /*Resizing*/
 @media only screen and (max-width: 800px){
+  .content{
+    width: 100%;
+    margin-left: 0;
+  }
   .camera{
       display: none;
   }
-  .instasignup{
-    background-color: #f6f7f9;
-    border: 0;
+  .signinwrapper{
+    float: none;
+    margin: 0 auto;
   }
-  .login{
+  .instasignup{
     background-color: #f6f7f9;
     border: 0;
   }
@@ -156,12 +161,11 @@ footer sub{
   .signupform button{
     background-color: #f6f7f9;
   }
-  .signinwrapper{
-    float: none;
-    margin: 0 auto;
+  .login{
+    background-color: #f6f7f9;
+    border: 0;
   }
-  .content{
-    width: 100%;
-    margin-left: 0;
+  footer sub{
+    display: block;
   }
 }
