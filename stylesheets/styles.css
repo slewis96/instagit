@@ -1,0 +1,41 @@
+body{
+  background-color: #f6f7f9;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #999999;
+}
+.camera{
+  float:left;
+  margin-top: 8%;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+.instasignin{
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  padding: 3% 1%;
+  width: 30%;
+  margin-top: 3%;
+  background-color: #fff;
+  float: left;
+  border:  .5px solid #d5d5d5;
+}
+.instasignin h2{
+  display: block;
+  margin: 0 auto;
+  background-color: #3796f0;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  width: 50%;
+  border-radius: 8%;
+}
+.instasignin .fb{
+  margin-top: 3%;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
+}
