@@ -179,9 +179,16 @@ footer sub{
   }
 }
 @media only screen and (max-width: 450px){
+  body{
+    margin: 0;
+  }
+  .signinwrapper{
+    width: 448px;
+  }
   .instasignup{
     background-color: #f6f7f9;
     border: 0;
+    padding: 0;
   }
   .signupform{
     background-color: #f6f7f9;
