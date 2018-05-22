@@ -16,7 +16,7 @@ Content 2| content 2|
 
 1) Perform `action`
 
-line  new line
+line   new line
 
 1. item 3
 1. item 2
@@ -37,7 +37,7 @@ line  new line
 		rule = big;
 	}
 ```
--[x] done it
--[ ] do it
+- [x] done it
+- [ ] do it
 
 ~~done~~
