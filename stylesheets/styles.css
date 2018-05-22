@@ -46,6 +46,9 @@ hr{
   background-color: #fff;
   border:  .5px solid #d5d5d5;
 }
+.instasignup>span{
+  font-size: 13px;
+}
 .instasignup .logo{
   display: block;
   margin: 0 auto;
