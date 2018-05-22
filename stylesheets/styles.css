@@ -6,8 +6,10 @@ body{
   padding-bottom: 3%;
 }
 .content{
-  width: 93%;
-  margin-left: 21%;
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 a{
   text-decoration: none;
@@ -24,14 +26,11 @@ hr{
 /*Left image*/
 .camera{
   float: left;
-  margin-top: 8%;
-  margin-right: 2%;
 }
 
 /*Login/Signup right div*/
   /*First box*/
 .signinwrapper{
-  margin: 3.5% 0%;
   float: left;
   width: 365px;
 }
@@ -67,7 +66,7 @@ hr{
   border-radius: 3px;
 }
 .signupform input{
-  background-color: #fafafa;
+  background-color: #f6f7f9;
   border: .5px solid #e6e2e2;
   color: #999999;
   padding: 2%;
@@ -76,6 +75,11 @@ hr{
   width: 72%;
   weight: 100;
   line-height: 18px;
+  border-radius: 3px;
+}
+.signupform input:focus{
+  border: .5px solid #A19E9E;
+  outline: unset;
 }
 .signupform button{
   background-color: #fff;
@@ -127,6 +131,7 @@ footer{
   word-spacing: 20px;
   line-height: 30px;
   text-align: center;
+  margin-top: 4.5%
 }
 footer a{
   color: #083569;
@@ -143,11 +148,14 @@ footer sub{
 .links{
   float: none;
   clear: both;
-  margin: 0% 0%;
+  margin: 0 auto;
+}
+.mlinks{
+  display: none;
 }
 
 /*Resizing*/
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 840px){
   .content{
     width: 100%;
     margin-left: 0;
@@ -159,6 +167,18 @@ footer sub{
     float: none;
     margin: 0 auto;
   }
+  .dlinks{
+    display: none;
+  }
+  .mlinks{
+    display: inline;
+    width: 50%;
+  }
+  footer sub{
+    display: block;
+  }
+}
+@media only screen and (max-width: 450px){
   .instasignup{
     background-color: #f6f7f9;
     border: 0;
@@ -173,8 +193,5 @@ footer sub{
   .login{
     background-color: #f6f7f9;
     border: 0;
-  }
-  footer sub{
-    display: block;
   }
 }
